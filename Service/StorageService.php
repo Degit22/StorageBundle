@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle\Service;
+namespace Degit22\StorageBundle\Service;
 
-use AppBundle\Model\StorageQuery;
-use AppBundle\Model\StorageResult;
+use Degit22\StorageBundle\Model\StorageQuery;
+use Degit22\StorageBundle\Model\StorageResult;
 use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 use Symfony\Component\Cache\CacheItem;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -39,7 +39,7 @@ class StorageService implements \ArrayAccess
             } else {
                 $setting = StorageQuery::create()->filterByCode($keys[0])->filterByVisible(true)->findOne();
                 if (!$setting) {
-                    throw new \Exception('Не найдена настройка ' . $key);
+                    throw new \Exception('пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ' . $key);
                 }
                 if (is_array($arg1)) {
                     $value = $setting->getValue($keys[1], $arg1, $arg2);

@@ -1,8 +1,8 @@
 <?php
 
-namespace Creonit\StorageBundle\Model;
+namespace Degit22\StorageBundle\Model;
 
-use AppBundle\Model\Base\Storage as BaseStorage;
+use Degit22\StorageBundle\Model\Base\Storage as BaseStorage;
 
 /**
  * Skeleton subclass for representing a row from the 'storage' table.

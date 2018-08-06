@@ -1,8 +1,8 @@
 <?php
 
-namespace AppBundle\Model;
+namespace Degit22\StorageBundle\Model;
 
-use AppBundle\Model\Base\StorageOptionQuery as BaseStorageOptionQuery;
+use Degit22\StorageBundle\Model\Base\StorageOptionQuery as BaseStorageOptionQuery;
 
 /**
  * Skeleton subclass for performing query and update operations on the 'storage_option' table.

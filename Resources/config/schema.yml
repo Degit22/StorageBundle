@@ -4,7 +4,7 @@ config:
 database:
     +:
         name: default
-        namespace: Creonit\StorageBundle\Model
+        namespace: Degit22\StorageBundle\Model
         defaultIdMethod: native
 
     +vendor:

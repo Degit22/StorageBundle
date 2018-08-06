@@ -1,8 +1,8 @@
 <?php
 
-namespace AppBundle\Model;
+namespace Degit22\StorageBundle\Model;
 
-use AppBundle\Model\Base\StorageSection as BaseStorageSection;
+use Degit22\StorageBundle\Model\Base\StorageSection as BaseStorageSection;
 
 /**
  * Skeleton subclass for representing a row from the 'storage_section' table.

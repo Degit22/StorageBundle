@@ -1,8 +1,8 @@
 <?php
 
-namespace Creonit\StorageBundle\Admin;
+namespace Degit22\StorageBundle\Admin;
 
-use AppBundle\Model\StorageFieldQuery;
+use Degit22\StorageBundle\Model\StorageFieldQuery;
 use Creonit\AdminBundle\Component\Request\ComponentRequest;
 use Creonit\AdminBundle\Component\Response\ComponentResponse;
 use Creonit\AdminBundle\Component\Scope\Scope;

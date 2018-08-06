@@ -1,8 +1,8 @@
 <?php
 
-namespace Creonit\StorageBundle\Admin;
+namespace Degit22\StorageBundle\Admin;
 
-use AppBundle\Model\StorageSectionQuery;
+use Degit22\StorageBundle\Model\StorageSectionQuery;
 use Creonit\AdminBundle\Component\EditorComponent;
 
 class StorageEditor extends EditorComponent

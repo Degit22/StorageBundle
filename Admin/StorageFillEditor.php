@@ -1,12 +1,12 @@
 <?php
 
-namespace Creonit\StorageBundle\Admin;
+namespace Degit22\StorageBundle\Admin;
 
-use AppBundle\Model\StorageQuery;
-use AppBundle\Model\StorageResultQuery;
-use AppBundle\Model\StorageResult;
-use AppBundle\Model\StorageValue;
-use AppBundle\Model\StorageValueQuery;
+use Degit22\StorageBundle\Model\StorageQuery;
+use Degit22\StorageBundle\Model\StorageResultQuery;
+use Degit22\StorageBundle\Model\StorageResult;
+use Degit22\StorageBundle\Model\StorageValue;
+use Degit22\StorageBundle\Model\StorageValueQuery;
 use Creonit\AdminBundle\Component\EditorComponent;
 use Creonit\AdminBundle\Component\Request\ComponentRequest;
 use Creonit\AdminBundle\Component\Response\ComponentResponse;

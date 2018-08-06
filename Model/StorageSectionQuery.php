@@ -1,8 +1,8 @@
 <?php
 
-namespace AppBundle\Model;
+namespace Degit22\StorageBundle\Model;
 
-use AppBundle\Model\Base\StorageSectionQuery as BaseStorageSectionQuery;
+use Degit22\StorageBundle\Model\Base\StorageSectionQuery as BaseStorageSectionQuery;
 
 /**
  * Skeleton subclass for performing query and update operations on the 'storage_section' table.

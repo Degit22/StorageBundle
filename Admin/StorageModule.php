@@ -1,6 +1,6 @@
 <?php
 
-namespace Creonit\StorageBundle\Admin;
+namespace Degit22\StorageBundle\Admin;
 
 use Creonit\AdminBundle\Module;
 
@@ -13,7 +13,8 @@ class StorageModule extends Module
             ->setTitle('Управление контентом')
             ->setIcon('list')
             ->setTemplate('StorageTable')
-            ->setPermission('ROLE_ADMIN_STORAGE');
+            //->setPermission('ROLE_ADMIN_STORAGE')
+        ;
     }
 
     public function initialize()

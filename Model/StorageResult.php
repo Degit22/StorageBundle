@@ -1,8 +1,8 @@
 <?php
 
-namespace AppBundle\Model;
+namespace Degit22\StorageBundle\Model;
 
-use AppBundle\Model\Base\StorageResult as BaseStorageResult;
+use Degit22\StorageBundle\Model\Base\StorageResult as BaseStorageResult;
 use Propel\Runtime\ActiveQuery\Criteria;
 
 /**

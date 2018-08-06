@@ -1,6 +1,6 @@
 <?php
 
-namespace Creonit\StorageBundle\DependencyInjection;
+namespace Degit22\StorageBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class CreonitStorageExtension extends Extension
+class Degit22StorageExtension extends Extension
 {
 
     /**
