@@ -1,0 +1,8 @@
+services:
+    creonit_admin.storage_module:
+        class: Creonit\StorageBundle\Admin\StorageModule
+        tags: [{ name: creonit_admin.module }]
+
+    creonit_storage:
+        class: Creonit\StorageBundle\Service\StorageService
+        arguments: ['@service_container']
