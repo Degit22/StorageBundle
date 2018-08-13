@@ -16,7 +16,7 @@ class StorageFillEditor extends EditorComponent
 
     /**
      * @title Блок
-     * @entity Storage
+     * @entity Degit22\StorageBundle\Model\Storage
      *
      * @template
      * {% for field in fields %}

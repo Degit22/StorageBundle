@@ -19,6 +19,7 @@ class StorageMultiresultTable extends TableComponent
      * @cols Название, .
      *
      * \StorageResult
+     * @entity Degit22\StorageBundle\Model\StorageResult
      * @field title {load: 'entity.getTitle()'}
      * @sortable true
      *

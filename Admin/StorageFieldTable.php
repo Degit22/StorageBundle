@@ -28,6 +28,7 @@ class StorageFieldTable extends TableComponent
      * @cols Товары, Индентификатор, .
      *
      * \StorageField
+     * @entity Degit22\StorageBundle\Model\StorageField
      * @sortable true
      * @field title
      *
@@ -38,7 +39,7 @@ class StorageFieldTable extends TableComponent
      */
     public function schema()
     {
-        $this->setHandler('copy', function (ComponentRequest $request, ComponentResponse $response) {
+        $this->addHandler('copy', function (ComponentRequest $request, ComponentResponse $response) {
             $block = StorageFieldQuery::create()->findPk($request->query->get('storage_field_id')) or $response->flushError('Блок не найден');
 
             $last = StorageFieldQuery::create()->filterByStorage($block)->orderBySortableRank(Criteria::DESC)->findOne();

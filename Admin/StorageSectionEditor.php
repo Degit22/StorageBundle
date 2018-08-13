@@ -11,7 +11,7 @@ class StorageSectionEditor extends EditorComponent
 {
 
     /**
-     * @entity StorageSection
+     * @entity Degit22\StorageBundle\Model\StorageSection
      * @title Секция
      *
      * @field title {constraints: [NotBlank()]}

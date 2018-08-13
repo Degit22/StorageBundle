@@ -11,7 +11,7 @@ class StorageFieldEditor extends EditorComponent
 {
 
     /**
-     * @entity StorageField
+     * @entity Degit22\StorageBundle\Model\StorageField
      * @title Поле
      *
      * @field title {constraints: [NotBlank()]}

@@ -9,7 +9,7 @@ class StorageEditor extends EditorComponent
 {
 
     /**
-     * @entity Storage
+     * @entity Degit22\StorageBundle\Model\Storage
      * @title Блок
      *
      * @field title {constraints: [NotBlank()]}
